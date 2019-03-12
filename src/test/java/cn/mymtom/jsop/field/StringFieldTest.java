@@ -99,7 +99,7 @@ public class StringFieldTest {
 		StringField field = new StringField();
 		field.setLength(len);
 		ByteArrayOutputStream out = new ByteArrayOutputStream();
-		field.setValue("94");
+		field.setValue("93");
 
 		field.write(out);
 		byte[] buf1 = out.toByteArray();
